@@ -524,8 +524,6 @@
           <div>Hello {name} and adress {address}</div>
         )
       }
-      
-      
       const root = ReactDOM.createRoot(document.getElementById('root'));
       root.render(<Welcome name="Sarath" address = "chennai"/>);
 
