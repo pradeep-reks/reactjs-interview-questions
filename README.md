@@ -518,6 +518,7 @@
     1. **Function Components:** This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as the first parameter and return React elements to render the output:
 
        ```jsx harmony
+       
       const Welcome = ({name, address})=>{
         return (
           <div>Hello {name} and adress {address}</div>
@@ -533,6 +534,7 @@
     2. **Class Components:** You can also use ES6 class to define a component. The above function component can be written as a class component:
 
        ```jsx harmony
+       
         class Welcome extends React.Component {
           render() {
             return <h1>Hello, {this.props.name} and address {this.props.address}</h1>;
