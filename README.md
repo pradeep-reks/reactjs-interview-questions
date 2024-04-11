@@ -1326,6 +1326,8 @@
     3. State abstraction and manipulation.
     4. Props manipulation.
 
+    HOCs allow you to add additional functionality to a component without modifying the component's code. For example, you can use a HOC to add authentication or routing capabilities to a component or to apply a specific style or behavior to multiple components
+
     **[⬆ Back to Top](#table-of-contents)**
 
 36. ### How to create props proxy for HOC component?
