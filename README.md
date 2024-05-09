@@ -1354,7 +1354,10 @@
     **[⬆ Back to Top](#table-of-contents)**
 
 37. ### What is context?
+      React Context is a way to manage state globally.
 
+      It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.
+      
     _Context_ provides a way to pass data through the component tree without having to pass props down manually at every level.
 
     For example, authenticated users, locale preferences, UI themes need to be accessed in the application by many components.
