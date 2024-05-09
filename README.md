@@ -1322,7 +1322,10 @@
     HOC can be used for many use cases:
 
     1. Code reuse, logic and bootstrap abstraction.
-    2. Render hijacking.
+    2. Render hijacking -- The concept of render hijacking is the ability to control what a component will output from another component
+         --  It actually means that you decorate your component by wrapping it into a Higher-Order component. By wrapping you can inject additional props 
+             or make other changes, which can cause changing logic of rendering. It does not actually "ENABLES" hijacking, but by using HOC you make your 
+             component behave in different way.
     3. State abstraction and manipulation.
     4. Props manipulation.
 
