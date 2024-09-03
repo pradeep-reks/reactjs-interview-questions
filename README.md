@@ -583,7 +583,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-8.  ### What are Pure Components?
+8.  ### What are Pure Components (or how to avoid rendering a child component unnecessarily) ?
 
     Pure components are the components which render the same output for the same state and props. In function components, you can achieve these pure components through memoized `React.memo()` API wrapping around the component. This API prevents unnecessary re-renders by comparing the previous props and new props using shallow comparison. So it will be helpful for performance optimizations. 
     
